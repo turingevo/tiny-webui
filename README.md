@@ -1,7 +1,10 @@
 # tiny-webui
-A single file that implements OpenAI-compatible web UI
+### A single file that implements OpenAI-compatible web UI
 
-● Summary of Functions in tiny-webui.html 
+
+<img src="ui.png" alt="界面预览" width="800" height="600">
+
+### ● Summary of Functions in tiny-webui.html 
 This is a single-file HTML chat interface (1540 lines), which connects to the OpenAI-compatible API endpoint via SSE in a streaming manner (default http://127.0.0.1:8888/v1/chat/completions), and is specifically designed for local large language model inference services (such as the OpenAI API server). 
 Main functional modules 
 1. Layout and Visuals
